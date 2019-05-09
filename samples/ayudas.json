@@ -1,0 +1,50 @@
+{
+idPersona: ObjectId("5cd416498a787e738e1f68b3"),
+email: "jrodor@gmail.com",
+estado: "borrador",
+fechaa: "30/12/2019 12:02:90",
+fecham: "02/01/2019 19:08:45",
+tags: ["java","spring"],
+pregunta: "tengo un problema, quisiera bla bla.",
+respuestas:[]
+}, // ObjectId("5cd4193b8a787e738e1f68b4")
+{
+idPersona: 8309848548FG,
+email: "jrodor@gmail.com",
+estado: "abierta",
+fechaa: "30/12/2019 12:02:90",
+fecham: "02/01/2019 19:08:45",
+tags: ["ocio","madrid","restaurante"],
+pregunta: "Buenas, voy a madrid este fin de semana y busco un buen restaurante donde cenar en el centro",
+respuestas:[
+	{
+		idPersonaRes: DAFGSD8309848548FG,
+		idAyuda: KJDFHDKF9D8FF890,
+		emailDestino: "jrodor@gmail.com",
+		fecha: "01/01/2019 22:08:45",
+		textores: "Buenas, puede ir a Casa Lola. hhtp://restaurantelola.net",
+		comentarios: [
+			{
+			idPersonaCom: 8309848548FG,
+			emailDestino: "pepito@gmail.com",
+			fecha: "02/01/2019 19:08:45",
+			textocom: "me puedes especificar algo mas del tipo de comida o que puedo pedir"
+			},
+			{
+			idPersonaCom: DAFGSD8309848548FG,
+			emailDestino: "jrodor@gmail.com",
+			fecha: "02/01/2019 20:08:45",
+			textocom: "no te vayas isn probar las croquetas"
+			},
+			{
+			idPersonaCom: 8309848548FG,
+			emailDestino: "pepito@gmail.com",
+			fecha: "02/01/2019 19:08:45",
+			textocom: "muchas gracias"
+			}
+		]
+	}
+]
+}
+
+// estados de la ayuda: borrador, enviada, abierta, cerrada.
